@@ -6,14 +6,14 @@ export default function Body() {
     return (
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-16 xl:gap-24 px-4 w-full max-w-7xl mx-auto">
             <div className="flex flex-col gap-y-4 items-center w-full max-w-md">
-                <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden aspect-square">
+                <div className="relative rounded-full overflow-hidden">
                 <Image
                     src="/profile.png"
                     alt="Melo's profile picture"
                     width={256}
-                    height={256}
+                    height={387}
                     quality={100}
-                    className="rounded-full w-48 h-48 md:w-64 md:h-64 aspect-square"
+                    className="rounded-full"
                     sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 </div>
